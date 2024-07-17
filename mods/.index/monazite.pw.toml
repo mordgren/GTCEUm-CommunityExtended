@@ -1,0 +1,13 @@
+filename = 'monazite-1.20.1-1.1.5.jar'
+name = 'Monazite'
+side = 'both'
+
+[download]
+hash = 'ad13f43b1ea3ecacab04894799643a2e77b6686bd37bc8f0cb7f664851755f7eaefce70fb0a89a81c90969015a3a18038b1013fa6d8f76fddebf6079a854450e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KvSy350p/versions/tBKS0kF7/monazite-1.20.1-1.1.5.jar'
+
+[update.modrinth]
+mod-id = 'KvSy350p'
+version = 'tBKS0kF7'

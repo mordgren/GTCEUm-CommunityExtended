@@ -1,0 +1,13 @@
+filename = 'gtnn-1.0.8b.jar'
+name = 'GT--'
+side = 'both'
+
+[download]
+hash = '41704470126ca54f988bb02bda6fa2af8d0a91ee9f65e010915ec5468dadbd4358ec43cfc3469ebbe935510a873ce6366d46ad3cdbc77b7a51c9c5f2a715ad87'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/onpJaUJ0/versions/gNTmqXUH/gtnn-1.0.8b.jar'
+
+[update.modrinth]
+mod-id = 'onpJaUJ0'
+version = 'gNTmqXUH'
