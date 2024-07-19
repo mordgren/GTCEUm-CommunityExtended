@@ -1,10 +1,11 @@
 ServerEvents.recipes(event => {
-
+/// COMBUSTION GENERATOR //
     event.recipes.gtceu.combustion_generator('e85_fuel')
     .inputFluids('gtceu:e85_fuel 2')
     .duration(90)
     .EUt(-32)
-    
+
+/// RECIPE ///
     event.recipes.gtceu.large_chemical_reactor('e85_fuel')
     .inputFluids(
         'gtceu:ethanol 17000',
@@ -22,8 +23,7 @@ ServerEvents.recipes(event => {
 //        'gtceu:butene 50'
 //    )
 //    .outputFluids('gtceu:e85_fuel 20000')
-//    .addCondition(plantCasing[1])
 //    .duration(60)
-//   .EUt(480)
+//    .EUt(480)
 }
 )

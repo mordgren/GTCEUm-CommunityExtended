@@ -8,7 +8,6 @@
 		"{data:{Count:1b,id:\"gtceu:microchip_processor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:magnesium_diboride_dust\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:borax_dust\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"gtceu:micro_processor_computer\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:mv_energy_input_hatch\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:hv_wiremill\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:hv_autoclave\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
@@ -16,7 +15,6 @@
 		"{data:{Count:1b,id:\"gtceu:hv_electric_motor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:hv_bender\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:micro_processor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"gtceu:micro_processor_assembly\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:lv_muffler_hatch\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:hv_mixer\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:ender_pearl_dust\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
@@ -68,7 +66,10 @@
 		"{data:{Count:1b,id:\"gtceu:hv_electrolyzer\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"hangglider:hang_glider\",tag:{Damage:68},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:hv_chemical_reactor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"gtceu:hv_power_unit\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		"{data:{Count:1b,id:\"gtceu:hv_power_unit\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"gtceu:nano_processor_assembly\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"gtceu:nano_processor\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"gtceu:high_pressure_steam\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}"
 	],
 	"hiddenFavorites": [],
 	"displays": [
