@@ -19,4 +19,9 @@ usercache.json
 usernamecache.json
 config/oculus
 config/roughlyenoughitems
-config/xaero*
+config/xaerominimap.txt
+config/xaerominimap_entities.json
+config/xaerominimap-common.txt
+config/xaeropatreon.txt
+config/xaeroworldmap.txt
+config/xaeroworldmap-common.txt
