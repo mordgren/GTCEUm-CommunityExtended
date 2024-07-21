@@ -17,7 +17,7 @@ shaderpacks
 texturepacks
 usercache.json
 usernamecache.json
-config/oculus
+config/oculus.properties
 config/roughlyenoughitems
 config/xaerominimap.txt
 config/xaerominimap_entities.json

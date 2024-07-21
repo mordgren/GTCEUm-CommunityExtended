@@ -6,5 +6,11 @@
 
     "material.gtceu.high_pressure_steam":"High Pressure Steam",
     "block.gtceu.steam_pressurizer":"Steam Pressurizer", 
-    "gtceu.steam_pressurizer":"Steam Pressurizer"
+    "gtceu.steam_pressurizer":"Steam Pressurizer",
+
+    "material.gtceu.lignite_coal":"Lignite",
+    "material.gtceu.anthracite_coal":"Anthracite",
+
+    "gtceu.jei.ore_vein.lignite_coal_vein":"Lignite Vein",
+    "gtceu.jei.ore_vein.antracite_coal_vein":"Anthracite Vein"
 }
