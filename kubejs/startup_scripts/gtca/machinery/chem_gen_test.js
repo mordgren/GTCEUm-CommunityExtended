@@ -19,7 +19,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
           .aisle("IMI", "III", "ILI", "IHI")
           .where("M", Predicates.controller(Predicates.blocks(definition.get())))
           .where("#", Predicates.blocks("gtceu:ptfe_pipe_casing"))
-          .where("G", Predicates.blocks("gtceu:steel_gearbox"))
+          .where("G", Predicates.blocks("gtceu:stainless_steel_gearbox"))
           .where("P", Predicates.blocks("gtceu:inert_machine_casing"))
           .where("C", Predicates.blocks("gtceu:cupronickel_coil_block"))
           .where("S", Predicates.blocks("gtceu:steel_pipe_casing"))
