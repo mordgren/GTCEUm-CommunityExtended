@@ -1,0 +1,312 @@
+window {
+    size(336,236)
+    panel('','positional') {
+        bg1('xnet:textures/gui/sidegui.png')
+        bg2('xnet:textures/gui/controller.png')
+        bgoffset(80)
+        panel('','horizontal') {
+            hint(41,18,124,24)
+            togglebutton('channel1','1') {
+                channel('channel1')
+                desired(14,-1)
+                tooltips('Edit channel 1','Type: Logic')
+            }
+            togglebutton('channel2','2') {
+                channel('channel2')
+                desired(14,-1)
+                tooltips('Edit channel 2')
+            }
+            togglebutton('channel3','3') {
+                channel('channel3')
+                desired(14,-1)
+                tooltips('Edit channel 3')
+            }
+            togglebutton('channel4','4') {
+                channel('channel4')
+                desired(14,-1)
+                tooltips('Edit channel 4')
+            }
+            togglebutton('channel5','5') {
+                channel('channel5')
+                desired(14,-1)
+                tooltips('Edit channel 5')
+            }
+            togglebutton('channel6','6') {
+                channel('channel6')
+                desired(14,-1)
+                tooltips('Edit channel 6')
+            }
+            togglebutton('channel7','7') {
+                channel('channel7')
+                desired(14,-1)
+                tooltips('Edit channel 7')
+            }
+            togglebutton('channel8','8') {
+                channel('channel8')
+                desired(14,-1)
+                tooltips('Edit channel 8')
+            }
+            spacing(0)
+            horizmargin(0)
+        }
+        panel('','horizontal') {
+            hint(2,36,169,198)
+            widgetlist('connectors') {
+                channel('connectors')
+                bgthickness(-1)
+                bgfilled1(-7631989)
+                panel('','horizontal') {
+                    blockrender {
+                        desired(16,16)
+                        tooltips('§aConnector: §fBatbuf north','§aBlock: §fDiode','§aPosition: §f19,111,-10','§f(doubleclick to highlight)')
+                        render('morered:diode',1)
+                    }
+                    label('','E') {
+                        desired(18,-1)
+                        color(-15395563)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    spacing(0)
+                    horizmargin(0)
+                }
+                panel('','horizontal') {
+                    blockrender {
+                        desired(16,16)
+                        tooltips('§aBlock: §fDiode','§aPosition: §f22,111,-10','§f(doubleclick to highlight)')
+                        render('morered:diode',1)
+                    }
+                    label('','W') {
+                        desired(18,-1)
+                        color(-15395563)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    spacing(0)
+                    horizmargin(0)
+                }
+                panel('','horizontal') {
+                    blockrender {
+                        desired(16,16)
+                        tooltips('§aConnector: §fBatbuf north','§aBlock: §fDiode','§aPosition: §f20,111,-9','§f(doubleclick to highlight)')
+                        render('morered:diode',1)
+                    }
+                    label('','N') {
+                        desired(18,-1)
+                        color(-15395563)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    spacing(0)
+                    horizmargin(0)
+                }
+                panel('','horizontal') {
+                    blockrender {
+                        desired(16,16)
+                        tooltips('§aBlock: §fDiode','§aPosition: §f19,116,-10','§f(doubleclick to highlight)')
+                        render('morered:diode',1)
+                    }
+                    label('','E') {
+                        desired(18,-1)
+                        color(-15395563)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    spacing(0)
+                    horizmargin(0)
+                }
+                panel('','horizontal') {
+                    blockrender {
+                        desired(16,16)
+                        tooltips('§aBlock: §fDiode','§aPosition: §f22,116,-10','§f(doubleclick to highlight)')
+                        render('morered:diode',1)
+                    }
+                    label('','W') {
+                        desired(18,-1)
+                        color(-15395563)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    spacing(0)
+                    horizmargin(0)
+                }
+                panel('','horizontal') {
+                    blockrender {
+                        desired(16,16)
+                        tooltips('§aBlock: §fController','§aPosition: §f19,110,-10','§f(doubleclick to highlight)')
+                        render('xnet:controller',1)
+                    }
+                    label('','E') {
+                        desired(18,-1)
+                        color(-15395563)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    button {
+                        desired(14,-1)
+                    }
+                    spacing(0)
+                    horizmargin(0)
+                }
+                propagate(true)
+            }
+            slider {
+                desired(10,-1)
+                scrollable('connectors')
+            }
+            spacing(1)
+            horizmargin(3)
+        }
+        panel('channeleditpanel','positional') {
+            channel('channeleditpanel')
+            hint(170,4,163,38)
+            bgthickness(-1)
+            bgfilled1(-7631989)
+        }
+        panel('connectoreditpanel','positional') {
+            channel('connectoreditpanel')
+            hint(170,45,163,108)
+            bgthickness(-1)
+            bgfilled1(-7631989)
+        }
+        textfield('searchbar') {
+            channel('searchbar')
+            hint(5,4,89,14)
+        }
+        energybar('energybar') {
+            channel('energybar')
+            hint(5,24,35,11)
+            horizontal(true)
+            showtext(false)
+        }
+    }
+}
