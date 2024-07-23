@@ -25,4 +25,8 @@ ItemEvents.tooltip((event) => {
   );
 
   event.add("ae2:controller", Text.gray("Channels are §cdisabled§7."));
-});
+
+  event.add("gtceu:chem_gen", 
+    Text.gray("Liquid-Solid Propellant Chemical Generator. It enables energy generation from combustible chemical elements, or from highly reactive chemical elements. §cSupply with oxygen to boost§7"))
+    
+})
