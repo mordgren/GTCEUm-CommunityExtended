@@ -7,6 +7,16 @@
     "material.gtceu.high_pressure_steam":"High Pressure Steam",
     "block.gtceu.steam_pressurizer":"Steam Pressurizer", 
     "gtceu.steam_pressurizer":"Steam Pressurizer",
+    
+    "gtceu.chem_gen":"Large Chemical Generator",
+    "block.gtceu.chem_gen":"Large Chemical Generator",
+
+    "material.gtceu.isononyl_alcohol":"Isononyl Alcohol",
+    "material.gtceu.phthalic_anhydride_fluid":"Phthalic Anhydride",
+    "material.gtceu.oxylene":"O-Xylene",
+    "material.gtceu.octene":"Octene",
+    "material.gtceu.diisononyl_phthalate":"Diisononyl Phthalate",
+
 
     "material.gtceu.lignite_coal":"Lignite",
     "material.gtceu.anthracite_coal":"Anthracite",
