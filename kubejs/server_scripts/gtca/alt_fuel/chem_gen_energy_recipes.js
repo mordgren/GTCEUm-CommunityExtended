@@ -17,28 +17,31 @@ ServerEvents.recipes(event => {
     ];
 
     std.forEach((type) => {
+    const amount = ' ' + type[2].toString()
+    const amountboost = ' ' + ( 2 * type[2]).toString()
+
         if (type[0].includes('dinp')) {
             greg.chem_gen(type[0])
-            .inputFluids(type[1] + ' ' + type[2].toString())
+            .inputFluids(type[1] + amount)
             .itemInputs('2x gtceu:small_coal_dust')
             .duration(type[3])
             .EUt(type[4])  
         } else {
             greg.chem_gen(type[0])
-            .inputFluids(type[1] + ' ' + type[2].toString())
+            .inputFluids(type[1] + amount)
             .duration(type[3])
             .EUt(type[4])
         }
 
         if (type[0].includes('dinp')) {
             greg.chem_gen(type[0] + "_boosted")
-            .itemInputs('2x gtceu:small_coal_dust')
-            .inputFluids(type[1] + ' ' + ( 2 * type[2]).toString(), 'gtceu:oxygen 10')
+            .itemInputs('gtceu:coal_dust')
+            .inputFluids(type[1] + amountboost, 'gtceu:oxygen 10')
             .duration(type[3])
             .EUt(2 * type[4])
         } else {
             greg.chem_gen(type[0] + "_boosted")
-            .inputFluids(type[1] + ' ' + ( 2 * type[2]).toString(), 'gtceu:oxygen 10')
+            .inputFluids(type[1] + amountboost, 'gtceu:oxygen 10')
             .duration(type[3])
             .EUt(2 * type[4])
         }
