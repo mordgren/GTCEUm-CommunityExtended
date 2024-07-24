@@ -29,8 +29,10 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
           .where(
             "I",
             Predicates.blocks("gtceu:heatproof_machine_casing")
-              .setMinGlobalLimited(2)
-              .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+              .setMinGlobalLimited(34)
+              .or(Predicates.abilities(PartAbility.IMPORT_ITEMS))
+              .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS))
+              .or(Predicates.abilities(PartAbility.OUTPUT_ENERGY).setExactLimit(1))
           )
           .build()
       )
