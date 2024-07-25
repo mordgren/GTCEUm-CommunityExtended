@@ -35,12 +35,14 @@ ServerEvents.recipes(event => {
 
         if (type[0].includes('dinp')) {
             greg.chem_gen(type[0] + "_boosted")
+            .circuit(1)
             .itemInputs('gtceu:coal_dust')
             .inputFluids(type[1] + amountboost, 'gtceu:oxygen 10')
             .duration(type[3])
             .EUt(2 * type[4])
         } else {
             greg.chem_gen(type[0] + "_boosted")
+            .circuit(1)
             .inputFluids(type[1] + amountboost, 'gtceu:oxygen 10')
             .duration(type[3])
             .EUt(2 * type[4])
